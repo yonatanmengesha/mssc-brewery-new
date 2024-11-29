@@ -24,6 +24,7 @@ public class DateMapper {
             return Timestamp.valueOf(offsetDateTime.atZoneSameInstant(ZoneOffset.UTC).toLocalDateTime());
         } else {
             return null;
+
         }
     }
 }

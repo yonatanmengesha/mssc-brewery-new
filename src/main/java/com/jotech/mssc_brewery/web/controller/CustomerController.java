@@ -6,6 +6,7 @@ import com.jotech.mssc_brewery.service.CustomerService;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.ConstraintViolationException;
@@ -32,7 +33,7 @@ public class CustomerController {
     }
 
     @PostMapping
-    public ResponseEntity   handlePostCustomer(@Valid @RequestBody  CustomerDto customerDto){
+    public ResponseEntity   handlePostCustomer( @Valid @RequestBody  CustomerDto customerDto){
 
               CustomerDto savedCustomerDto =  customerService.saveNewCustomer(customerDto);
 
@@ -45,7 +46,7 @@ public class CustomerController {
     }
 
     @PutMapping("/{customerId}")
-    public ResponseEntity   handleUpdate(@PathVariable("customerId") UUID customerId,@Valid @RequestBody CustomerDto customerDto){
+    public ResponseEntity   handleUpdate(@PathVariable("customerId") UUID customerId, @Valid @RequestBody CustomerDto customerDto){
 
         customerService.updateCustomer(customerId,customerDto);
 

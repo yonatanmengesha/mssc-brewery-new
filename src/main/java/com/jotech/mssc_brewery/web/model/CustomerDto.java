@@ -16,7 +16,7 @@ import java.util.UUID;
 @Builder
 public class CustomerDto {
 
-    @Null
+   // @Null
     private UUID id;
     @NotNull
     @Size(min=3,max = 100)

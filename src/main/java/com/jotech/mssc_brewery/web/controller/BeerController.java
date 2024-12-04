@@ -3,6 +3,7 @@ package com.jotech.mssc_brewery.web.controller;
 import com.jotech.mssc_brewery.service.BeerService;
 import com.jotech.mssc_brewery.web.model.BeerDto;
 import com.jotech.mssc_brewery.service.v2.BeerServiceV2;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -19,6 +20,7 @@ public class BeerController {
 
     private final BeerService beerService;
 
+    @Autowired
     public BeerController(BeerService beerService) {
         this.beerService = beerService;
     }

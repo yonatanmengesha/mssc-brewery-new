@@ -2,6 +2,7 @@ com\jotech\mssc_brewery\web\model\BeerDto.class
 com\jotech\mssc_brewery\domain\Beer$BeerBuilder.class
 com\jotech\mssc_brewery\domain\Beer.class
 com\jotech\mssc_brewery\web\controller\v2\BeerControllerV2.class
+com\jotech\mssc_brewery\repositories\BeerRepository.class
 com\jotech\mssc_brewery\web\model\CustomerDto$CustomerDtoBuilder.class
 com\jotech\mssc_brewery\service\BeerService.class
 com\jotech\mssc_brewery\web\mappers\BeerMapperImpl.class

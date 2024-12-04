@@ -8,6 +8,7 @@ C:\Users\12409\Desktop\MicroServices\mssc-brewery\src\main\java\com\jotech\mssc_
 C:\Users\12409\Desktop\MicroServices\mssc-brewery\src\main\java\com\jotech\mssc_brewery\web\model\BeerDto.java
 C:\Users\12409\Desktop\MicroServices\mssc-brewery\src\main\java\com\jotech\mssc_brewery\web\controller\MvcExceptionHandler.java
 C:\Users\12409\Desktop\MicroServices\mssc-brewery\src\main\java\com\jotech\mssc_brewery\web\controller\v2\BeerControllerV2.java
+C:\Users\12409\Desktop\MicroServices\mssc-brewery\src\main\java\com\jotech\mssc_brewery\repositories\BeerRepository.java
 C:\Users\12409\Desktop\MicroServices\mssc-brewery\src\main\java\com\jotech\mssc_brewery\service\v2\BeerServiceV2Impl.java
 C:\Users\12409\Desktop\MicroServices\mssc-brewery\src\main\java\com\jotech\mssc_brewery\web\model\CustomerDto.java
 C:\Users\12409\Desktop\MicroServices\mssc-brewery\src\main\java\com\jotech\mssc_brewery\web\controller\BeerController.java
